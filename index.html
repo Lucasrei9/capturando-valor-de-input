@@ -10,11 +10,12 @@
 
   <body>
     <h1>Estudando Javascript!</h1>
-
+    <h3>Informe os seus pontos para saber a sua nota!</h3>
     <form action="" method="get">
-      <input type="text" id="valor" />
-      <input type="button" value="Enviar" onclick="enviandoValor()" />
-      <p id="recebendoValorDigitado"></p>
+      <input type="text" placeholder="Informe os seus pontos" id="pontos" />
+      <input type="submit" onclick="submitPontos()" />
+      <p id="getGrande"></p>
+
     </form>
   </body>
 </html>
